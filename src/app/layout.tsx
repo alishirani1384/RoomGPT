@@ -6,12 +6,7 @@ import couch from "@/assets/couch.svg";
 import Image from "next/image";
 import {
   ClerkProvider,
-  SignInButton,
-  UserButton,
-  SignedIn,
-  SignedOut,
 } from "@clerk/nextjs";
-import { useUser } from "@clerk/nextjs";
 import UserInf from "@/components/UserInf";
 
 const inter = Inter({ subsets: ["latin"] });
