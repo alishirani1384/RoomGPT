@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.selected {
+    background-color: rgba(103, 118, 255, 0.363);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.gradiant-bg::before{
+    content: "";
+    background: radial-gradient(20% 50% at 50% 50%,rgba(71,127,247,.376) 0,rgba(37,38,44,0) 100%);
+    position: absolute;
+    z-index: -10;
+    transform: scale(2);
+    inset: 0;
+    pointer-events: none;
+}
+@media screen and (max-width : 1100px) {
+    .gradiant-bg::before{
+        transform: scale(1);
+    }
+}
+

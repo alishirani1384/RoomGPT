@@ -1,0 +1,33 @@
+{
+  "name": "roomgpt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@bytescale/upload-widget-react": "^4.12.0",
+    "@clerk/nextjs": "^4.27.1",
+    "next": "14.0.1",
+    "react": "^18",
+    "react-compare-slider": "^3.0.1",
+    "react-dom": "^18",
+    "react-select": "^5.8.0",
+    "replicate": "^0.21.1",
+    "zustand": "^4.4.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
